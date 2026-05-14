@@ -11,7 +11,7 @@ console.log(counterStore.count);
 
    <h1>My Counter</h1>
 
-   <button @click="counterStore.count++">
+   <button @click="counterStore.increment()">
       Increment
    </button>
 
@@ -19,7 +19,7 @@ console.log(counterStore.count);
       {{ counterStore.count }}
    </span>
 
-   <button @click="counterStore.count--">
+   <button @click="counterStore.decrement()">
       Decrement
    </button>
 
